@@ -1,0 +1,17 @@
+<%= form_for @person do |form| %>
+
+  <div>
+    <%= form.label :name %>
+    <%= form.text_field :name, :placeholder => "Name" %>
+  </div>
+
+  <div>
+    <%= form.label :age %>
+    <%= form.number_field :age, :placeholder => "Age" %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+
+<% end %>
