@@ -1,6 +1,6 @@
 class PeopleController < ApplicationController
 
-  respond_to :html, :json, :xml
+  respond_to :html, :json
 
   def index
     @people = Person.all
